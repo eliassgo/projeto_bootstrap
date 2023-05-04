@@ -1,0 +1,75 @@
+
+
+body{
+    font-family: 'Lobster', cursive;
+    color: #212A3E;
+}
+
+.navbar{
+    background-color: #FEDEFF;
+}
+
+.navbar li a{
+    letter-spacing: 2px;
+}
+
+#cabecalho  .nav .nav-link.active{
+    background-color: #146C94;
+    color:#FEDEFF;
+}
+.carousel-inner img{
+    width: 1920px;
+    height: 760px;
+}
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-info-B .nav-link.active:hover{
+    color: #146C94;
+}
+
+.navbar-toggler{
+    background-color: #146C94;
+}
+
+#sobre-estabelecimento, #info-B{
+    background-color: #19A7CE;
+}
+
+.nav-info-B .nav-link.active{
+    background-color: #B0DAFF;
+    color: #19A7CE;
+}
+#fale-conosco button{
+    background-color: #19A7CE;
+    color: black;
+}
+.nav-info-B .nav-link:hover{
+    color: #B0DAFF;
+}
+
+.text-colored{
+    color: #FEDEFF;
+}
+.text-colored-2{
+    color:#146C94 ;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+#fale-conosco, #info-A{
+    background-color: #B0DAFF;
+}
+
+@media (max-width: 767px){
+    .carousel-item img {
+        height: 280px;
+    }
+}

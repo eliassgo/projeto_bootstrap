@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <title>Sorveteria Sky</title>
+</head>
+
+<!--Cria uma lading page como a criada no módulo-->
+<!--Tema a critério-->
+<!--Publique no vercel-->
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-3">Sorveteria Sky</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-estabelecimento" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i> 
+                            Sobre</a>
+                    </li>
+                    <li class="nav-item fw-bold f-2">
+                        <a href="#info-A" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i> 
+                            Espaço</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#info-B" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i> 
+                            Cardápio</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i> 
+                            Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+
+        <section id="sobre-estabelecimento">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./img/carousel01.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/carousel02.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/carousel03.jpg" alt="">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators ">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./img/sobre.jpg" alt="" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sorveteria Sky, o céu é o limite do seu sabor!</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, adipisci? Aliquid voluptate, alias consequatur natus necessitatibus repudiandae libero aliquam dicta.</p>
+                            <h3 class="section-title">Text</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga culpa quaerat aspernatur quae animi nemo, eos beatae minima ex saepe!</p>
+                            <ul>
+                                <li>Item</li>
+                                <li>Item</li>
+                                <li>Item</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="info-A" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nosso espaço</h2>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./img/espaco01.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4">Texto</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eligendi labore quae dolores obcaecati enim dolorem explicabo, quo nulla nemo!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./img/espaco02.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4">Texto</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eligendi labore quae dolores obcaecati enim dolorem explicabo, quo nulla nemo!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./img/espaco03.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4">Texto</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eligendi labore quae dolores obcaecati enim dolorem explicabo, quo nulla nemo!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="info-B" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">Gelados</span> 
+                    </h2>
+                </div>
+
+                <div class="row">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-column nav-info-B">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sub-item-1" class="fw-bold text-start nav-link text-colored active">Sub-Item</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sub-item-2" class="fw-bold text-start nav-link text-colored">Sub-Item</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sub-item-3" class="fw-bold text-start nav-link text-colored">Sub-Item</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sub-item-4" class="fw-bold text-start nav-link text-colored">Sub-Item</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sub-item-5" class="fw-bold text-start nav-link text-colored">Sub-Item</button>
+                            </nav>
+                        </aside>
+                        
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="sub-item-1">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-1932375_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 1</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-1932375_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 1</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-1932375_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 1</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-1932375_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 1</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="sub-item-2">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-932980_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 2</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-932980_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 2</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-932980_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 2</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-932980_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 2</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="sub-item-3">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/dessert-gdf3fad881_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 3</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/dessert-gdf3fad881_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 3</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/dessert-gdf3fad881_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 3</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/dessert-gdf3fad881_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 3</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="sub-item-4">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-1932375_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 4</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-1932375_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 4</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-1932375_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 4</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-1932375_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 4</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="sub-item-5">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-932980_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 5</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-932980_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 5</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-932980_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 5</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./img/bowl-932980_1920.jpg" alt="">
+                                            <h5 class="fw-bold mt-2">Sub-item 5</h5>
+                                            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Fale <span class="text-colored-2">Conosco</span> 
+                    </h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold"> Seu Nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu E-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold">Seu Telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua Mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4"><!--fs = font-size-->
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais 
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#" class="text-colored-2">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#" class="text-colored-2">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#" class="text-colored-2">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 ">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Ruas xxxxxxx xxxxx N* 123, Bairro xxxxxx - xxxxxx xxxxx
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
